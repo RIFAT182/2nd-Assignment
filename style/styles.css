@@ -2,89 +2,126 @@
 font {
     font-family: 'Poppins', sans-serif;
 }
-/* top section */
-.top-part{
-    background-color:#2D25A0 ;
+
+body {
     margin: 0;
-    width: 1440px;
-height: 677px;
 }
+
+/* top section */
+.top-part {
+    background-color: #2D25A0;
+
+
+}
+
 /* menubar */
-.menu{
-  
+.menu {
+
     margin-left: 156px;
     padding-top: 47px;
     margin-right: 122px;
     display: flex;
     justify-content: space-between;
 }
-.menu-detail  a{
+
+.menu-detail a {
     padding-right: 35px;
     font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: white;
-text-decoration: none;
-font-weight: 400;
-text-align: center;
-}
-.button a{
+    font-size: 16px;
+    line-height: 24px;
     color: white;
-text-decoration: none;
-font-weight: 400;
+    text-decoration: none;
+    font-weight: 400;
+    text-align: center;
 }
-.login  {
+
+.button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.login {
     padding: 5px 24px;
     background-color: #E02C6D;
 }
-.text{
-    font-weight: bold;
-font-size: 64px;
 
-color: #FFFFFF;
-padding-left: 156px;
+.text {
+    font-weight: bold;
+    font-size: 64px;
+
+    color: #FFFFFF;
+    padding-left: 156px;
 }
-.box{
+
+.box {
     padding: 5px 24px;
     margin-left: 156px;
 }
-.box-1{
+
+.box-1 {
     margin-left: 156px;
-   
+
+    padding: 5px 10px 5px 10px;
+    background-color: #E02C6D;
+    font-size: 20px;
+
+    color: #FFFFFF;
+
 }
-.section-1{
+
+.section-1 {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
-img{
-    width: 388px; 
+
+img {
+    width: 388px;
     height: 428px;
 }
-.image{
+
+.image {
     /* margin-left: 102px;
     margin-top: 62px;
     margin-right: 140px;
     margin-bottom: 86px; */
-    margin: 62px 140px 86px 102px ;
+    padding-top: 30px;
+    padding-left: 40px;
 }
 
 
-.player-info{
-    width: 330px;
-height: 474px;
+.player-info {
+    box-shadow: 5px 5px 10px 1px grey;
+    margin: 20px;
+    padding: 15px;
+    background-color: #FFFFFF;
+
 }
-.player-name{
+
+.player-name {
     color: #18191F;
-    font-size:28px;
- line-height:40px;
- font-weight:700;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
 }
-.detail{
+
+.detail {
     color: #6C6C6C;
     font-weight: 400;
 
 }
-.players{
+
+.players {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player-img {
+    width: 300px;
+    height: 256px;
+}
+
+.player-container {
+    padding: 20px 156px 20px 128px;
+    background-color: #FFFFFF;
 }
