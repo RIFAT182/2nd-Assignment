@@ -125,3 +125,58 @@ img {
     padding: 20px 156px 20px 128px;
     background-color: #FFFFFF;
 }
+
+.image:hover {
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
+}
+
+.sec-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* padding: 20px 5px 20px 150px; */
+    padding-left: 150px;
+}
+
+.rules {
+    padding-top: 80px;
+    padding-right: 150px;
+    text-align: left;
+}
+
+.box-2 {
+
+
+    padding: 5px 10px 5px 10px;
+    background-color: #E02C6D;
+    font-size: 20px;
+
+    color: #FFFFFF;
+
+}
+
+.social-site img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo img {
+    height: 150px;
+}
+
+.last {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.lower-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.picture img {
+    width: 400px;
+    height: 300px;
+}
